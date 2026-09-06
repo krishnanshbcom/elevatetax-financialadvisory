@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ELEVATE | Tax Consultant &amp; Financial Advisory</title>
+<meta name="description" content="Personalized tax advisory, compliance, and financial guidance for individuals and businesses. Book a consultation or estimate your tax liability in minutes." />
+<link rel="canonical" href="https://example.com/" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="ELEVATE | Tax Consultant & Financial Advisory" />
+<meta property="og:description" content="Personalized tax advisory, compliance, and financial guidance designed around your goals." />
+<meta property="og:url" content="https://example.com/" />
+<meta property="og:image" content="assets/images/og-cover.jpg" />
+
+<!-- Schema.org -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "ELEVATE — Tax & Financial Advisory",
+  "description": "Personalized tax advisory, compliance, and financial guidance for individuals and businesses.",
+  "areaServed": "IN",
+  "serviceType": ["Income Tax Advisory", "GST Compliance", "Tax Planning", "Business Tax Advisory"]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="scroll-progress" aria-hidden="true"><div class="scroll-progress-bar"></div></div>
+<div class="cursor-glow" aria-hidden="true"></div>
+
+<!-- ============================ NAV ============================ -->
+<header class="nav">
+  <div class="nav-brand">
+    <span class="nav-brand-name" data-config-name>ELEVATE</span>
+    <span class="nav-brand-sub" data-config-subtitle>Tax &amp; Financial Advisory</span>
+  </div>
+
+  <nav class="nav-links" aria-label="Primary">
+    <a href="#services" data-scroll-to="#services">Services</a>
+    <a href="about.html">About</a>
+    <a href="#contact" data-scroll-to="#contact">Contact</a>
+  </nav>
+
+  <div class="nav-cta">
+    <button class="btn btn-primary" data-open-consultation="general">Book Consultation</button>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<nav id="mobile-menu" class="nav-mobile" aria-label="Mobile">
+  <a href="#services" data-scroll-to="#services">Services</a>
+  <a href="about.html">About</a>
+  <a href="#contact" data-scroll-to="#contact">Contact</a>
+</nav>
+
+<!-- ============================ SECTION INDICATOR ============================ -->
+<ul class="section-indicator" aria-hidden="true">
+  <li data-target="#hero">01 <span class="indicator-label">Intro</span></li>
+  <li data-target="#services">02 <span class="indicator-label">Services</span></li>
+  <li data-target="#contact">03 <span class="indicator-label">Contact</span></li>
+</ul>
+
+<main>
+
+<!-- ============================ HERO ============================ -->
+<section class="hero" id="hero">
+  <div class="container hero-inner">
+    <div>
+      <span class="hero-eyebrow">TAX &middot; COMPLIANCE &middot; ADVISORY</span>
+      <h1 class="hero-title">Tax clarity for better financial decisions.</h1>
+      <p class="hero-text">Personalized tax advisory, compliance, and financial guidance designed around your goals.</p>
+      <div class="hero-actions">
+        <button class="btn btn-primary" data-open-consultation="general">Book a Consultation &rarr;</button>
+      </div>
+    </div>
+
+    <div class="hero-visual" data-reveal>
+      <div class="hero-card">
+        <div class="hero-card-label">ESTIMATED TAX SAVED</div>
+        <div class="hero-card-value mono" data-count-to="250000" data-prefix="&#8377;" data-suffix="">&#8377; 0</div>
+        <div class="hero-card-delta">&#8593; 12.4% <span style="color:var(--text-secondary)">potential savings identified</span></div>
+
+        <div class="hero-chart-wrap">
+          <svg id="hero-chart" viewBox="0 0 420 220" role="img" aria-label="Income trend over recent financial years">
+            <path class="chart-area" d=""></path>
+            <path class="chart-line" d=""></path>
+            <g class="chart-dots"></g>
+          </svg>
+          <div id="hero-chart-tooltip" class="chart-tooltip" role="status" aria-live="polite"></div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ TRUST BAR ============================ -->
+<section class="trust-bar">
+  <div class="container trust-grid">
+    <div class="trust-stat"><div class="trust-value" data-stat="0">2+</div><div class="trust-label">Years Experience</div></div>
+    <div class="trust-stat"><div class="trust-value" data-stat="1">50+</div><div class="trust-label">Clients Advised</div></div>
+    <div class="trust-stat"><div class="trust-value" data-stat="2">98%</div><div class="trust-label">Client Satisfaction</div></div>
+  </div>
+</section>
+
+<!-- ============================ SERVICES ============================ -->
+<section class="section-pad" id="services">
+  <div class="container">
+    <span class="section-kicker" data-reveal>What we do</span>
+    <h2 class="section-heading" data-reveal>Everything you need to stay financially compliant.</h2>
+    <p class="section-sub" data-reveal>A focused set of services covering compliance, planning, and the numbers behind both.</p>
+
+    <div class="services-grid" data-reveal>
+      <div class="service-card">
+        <span class="service-line"></span>
+        <span class="service-index">01</span>
+        <h3 class="service-title">Income Tax</h3>
+        <p class="service-desc">Returns, tax planning, deductions and compliance.</p>
+      </div>
+      <div class="service-card">
+        <span class="service-line"></span>
+        <span class="service-index">02</span>
+        <h3 class="service-title">GST</h3>
+        <p class="service-desc">Registration, filing, reconciliation and advisory.</p>
+      </div>
+      <div class="service-card">
+        <span class="service-line"></span>
+        <span class="service-index">03</span>
+        <h3 class="service-title">Tax Planning</h3>
+        <p class="service-desc">Strategic planning to legally optimize tax liability.</p>
+      </div>
+      <div class="service-card">
+        <span class="service-line"></span>
+        <span class="service-index">04</span>
+        <h3 class="service-title">Business Tax</h3>
+        <p class="service-desc">Tax compliance and advisory for businesses.</p>
+      </div>
+      <div class="service-card">
+        <span class="service-line"></span>
+        <span class="service-index">05</span>
+        <h3 class="service-title">Financial Advisory</h3>
+        <p class="service-desc">Practical financial guidance based on your situation.</p>
+      </div>
+      <div class="service-card">
+        <span class="service-line"></span>
+        <span class="service-index">06</span>
+        <h3 class="service-title">Notice &amp; Compliance</h3>
+        <p class="service-desc">Assistance with tax notices and compliance matters.</p>
+      </div>
+      <div class="service-card">
+        <span class="service-line"></span>
+        <span class="service-index">07</span>
+        <h3 class="service-title">Stock Research</h3>
+        <p class="service-desc">Research-led stock analysis and recommendations for informed investment decisions.</p>
+      </div>
+      <div class="service-card">
+        <span class="service-line"></span>
+        <span class="service-index">08</span>
+        <h3 class="service-title">Portfolio Analysis</h3>
+        <p class="service-desc">Review portfolio allocation, risk exposure, and opportunities for better balance.</p>
+      </div>
+      <div class="service-card">
+        <span class="service-line"></span>
+        <span class="service-index">09</span>
+        <h3 class="service-title">Market Analysis</h3>
+        <p class="service-desc">Clear analysis of market trends, sectors, and developments to support informed decisions.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ PROCESS ============================ -->
+<section class="section-pad">
+  <div class="container">
+    <span class="section-kicker" data-reveal>How it works</span>
+    <h2 class="section-heading" data-reveal>A clear, four-step process.</h2>
+
+    <div class="process-grid">
+      <div class="process-step process-step--discover" data-reveal>
+        <span class="process-num">01</span>
+        <h3 class="process-title">DISCOVER</h3>
+        <p class="process-desc">Understand your situation.</p>
+      </div>
+      <div class="process-step process-step--analyze" data-reveal>
+        <span class="process-num">02</span>
+        <h3 class="process-title">ANALYZE</h3>
+        <p class="process-desc">Review your financial information.</p>
+      </div>
+      <div class="process-step process-step--plan" data-reveal>
+        <span class="process-num">03</span>
+        <h3 class="process-title">PLAN</h3>
+        <p class="process-desc">Identify compliant strategies.</p>
+      </div>
+      <div class="process-step process-step--execute" data-reveal>
+        <span class="process-num">04</span>
+        <h3 class="process-title">EXECUTE</h3>
+        <p class="process-desc">Complete filings and implementation.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ TESTIMONIALS ============================ -->
+<section class="section-pad testimonials-section">
+  <div class="container">
+    <span class="section-kicker" data-reveal>Client perspectives</span>
+    <h2 class="section-heading" data-reveal>Trust is built on clear advice.</h2>
+    <p class="section-sub" data-reveal>Replace these placeholders with approved client feedback when testimonials are available.</p>
+
+    <div class="testimonials-track" data-reveal>
+      <article class="testimonial-card">
+        <span class="testimonial-mark">01</span>
+        <blockquote>“[Add a verified client quote about receiving clear, practical tax guidance.]”</blockquote>
+        <footer>Client name <span>·</span> Tax advisory</footer>
+      </article>
+      <article class="testimonial-card">
+        <span class="testimonial-mark">02</span>
+        <blockquote>“[Add a verified client quote about understanding portfolio risk and allocation.]”</blockquote>
+        <footer>Client name <span>·</span> Portfolio analysis</footer>
+      </article>
+      <article class="testimonial-card">
+        <span class="testimonial-mark">03</span>
+        <blockquote>“[Add a verified client quote about research-led market insights and recommendations.]”</blockquote>
+        <footer>Client name <span>·</span> Market research</footer>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ ADVISORY APPROACH ============================ -->
+<section class="section-pad">
+  <div class="container">
+    <span class="section-kicker" data-reveal>Our approach</span>
+    <h2 class="section-heading" data-reveal>Clear thinking for every financial decision.</h2>
+    <p class="section-sub" data-reveal>Tax advice and market research, brought together with a disciplined process and plain-language recommendations.</p>
+
+    <div class="advisory-grid" data-reveal>
+      <article class="advisory-card">
+        <span class="advisory-number">01</span>
+        <h3>Understand</h3>
+        <p>We begin with your goals, income, holdings, risk comfort, and the decisions you need to make.</p>
+      </article>
+      <article class="advisory-card">
+        <span class="advisory-number">02</span>
+        <h3>Research</h3>
+        <p>We examine tax rules, company fundamentals, portfolio allocation, sectors, and market conditions.</p>
+      </article>
+      <article class="advisory-card">
+        <span class="advisory-number">03</span>
+        <h3>Recommend</h3>
+        <p>You receive practical next steps, key risks to consider, and recommendations you can understand.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ FAQ ============================ -->
+<section class="section-pad">
+  <div class="container">
+    <span class="section-kicker" data-reveal>FAQ</span>
+    <h2 class="section-heading" data-reveal>Questions, answered plainly.</h2>
+
+    <div class="faq-list" data-reveal>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">Which tax regime should I choose?<span class="faq-icon"></span></button>
+        <div class="faq-answer"><p>It depends on your income mix and how many deductions you claim. A full consultation can compare the options and confirm which fits your situation.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">When should I file my income tax return?<span class="faq-icon"></span></button>
+        <div class="faq-answer"><p>Filing deadlines vary by taxpayer category and are set each year by the tax authority. We'll confirm the applicable date for your situation during a consultation.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">Can you help with tax notices?<span class="faq-icon"></span></button>
+        <div class="faq-answer"><p>Yes. Notice and compliance support is one of our core services — share the notice and we'll walk through the right response.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">Do you provide GST services?<span class="faq-icon"></span></button>
+        <div class="faq-answer"><p>Yes, including registration, filing, reconciliation, and advisory for ongoing GST compliance.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">Do you work with businesses?<span class="faq-icon"></span></button>
+        <div class="faq-answer"><p>Yes — from freelancers and startups to established businesses needing ongoing tax compliance and advisory.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">Can you help with tax planning?<span class="faq-icon"></span></button>
+        <div class="faq-answer"><p>Yes. Tax planning is most effective when started early in the financial year — we can review your situation and identify compliant options.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">Who can benefit from portfolio analysis?<span class="faq-icon"></span></button>
+        <div class="faq-answer"><p>Portfolio analysis can help investors understand allocation, concentration, risk exposure, and whether their holdings remain aligned with their goals.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">Are stocks well researched?<span class="faq-icon"></span></button>
+        <div class="faq-answer"><p>Yes. Our research considers company fundamentals, valuation, market trends, sector conditions, and relevant developments. However, all investments involve risk and returns cannot be guaranteed.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ CTA ============================ -->
+<section class="section-pad" id="contact">
+  <div class="cta-section" data-reveal>
+    <div class="cta-bg" aria-hidden="true"></div>
+    <h2 class="cta-heading">Let's make your taxes simpler.</h2>
+    <p class="cta-sub">Get practical advice based on your financial situation.</p>
+    <div class="cta-actions">
+      <button class="btn btn-primary" data-open-consultation="general">Book Consultation</button>
+      <a class="btn btn-ghost" id="whatsapp-cta" data-whatsapp-link target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============================ FOOTER ============================ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand-name" data-config-name>ELEVATE</div>
+        <div class="footer-brand-sub" data-config-subtitle>Tax &amp; Financial Advisory</div>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">SERVICES</div>
+        <a data-scroll-to="#services" href="#services">Tax Planning</a>
+        <a data-scroll-to="#services" href="#services">GST</a>
+        <a data-scroll-to="#services" href="#services">Business Advisory</a>
+        <a data-scroll-to="#services" href="#services">Tax Compliance</a>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">CONTACT</div>
+        <a data-config-email href="#">hello@example.com</a>
+        <a data-config-phone href="#">+91 00000 00000</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span data-config-year>2026</span> <span data-config-name>ELEVATE Tax & Financial Advisory</span>. All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ============================ FLOATING UI ============================ -->
+<a href="#" id="whatsapp-float" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2C6.48 2 2 6.36 2 11.75c0 2.06.63 3.97 1.71 5.56L2.5 21.5l4.36-1.14A9.98 9.98 0 0012 21.5c5.52 0 10-4.36 10-9.75S17.52 2 12 2z" stroke="var(--text)" stroke-width="1.3"/></svg>
+</a>
+<button id="back-to-top" class="back-to-top" aria-label="Back to top">
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7" stroke="var(--text)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</button>
+
+<!-- ============================ CONSULTATION MODAL ============================ -->
+<div id="consultation-form" class="form-modal" role="dialog" aria-modal="true" aria-labelledby="form-title" hidden>
+  <div class="form-backdrop" data-form-backdrop></div>
+  <div class="form-panel" tabindex="-1">
+    <button class="form-close" data-form-close aria-label="Close">&times;</button>
+    <h2 id="form-title" class="visually-hidden">Book a consultation</h2>
+
+    <div class="form-progress"><div class="form-progress-fill"></div></div>
+    <span class="form-step-counter" data-step-counter>Step 1 of 4</span>
+    <div class="visually-hidden" data-form-live aria-live="polite"></div>
+
+    <div data-form-body>
+      <div class="form-step" data-step="1">
+        <h3>What do you need help with?</h3>
+        <div class="option-grid">
+          <button type="button" class="option-card" data-need-option="income-tax" aria-pressed="false">Income Tax</button>
+          <button type="button" class="option-card" data-need-option="gst" aria-pressed="false">GST</button>
+          <button type="button" class="option-card" data-need-option="tax-planning" aria-pressed="false">Tax Planning</button>
+          <button type="button" class="option-card" data-need-option="business-tax" aria-pressed="false">Business Tax</button>
+          <button type="button" class="option-card" data-need-option="tax-notice" aria-pressed="false">Tax Notice</button>
+          <button type="button" class="option-card" data-need-option="stock-research" aria-pressed="false">Stock Research</button>
+          <button type="button" class="option-card" data-need-option="portfolio-analysis" aria-pressed="false">Portfolio Analysis</button>
+          <button type="button" class="option-card" data-need-option="market-analysis" aria-pressed="false">Market Analysis</button>
+          <button type="button" class="option-card" data-need-option="general" aria-pressed="false">General Consultation</button>
+        </div>
+      </div>
+
+      <div class="form-step" data-step="2" hidden>
+        <h3>Tell us about yourself</h3>
+        <div class="option-grid">
+          <button type="button" class="option-card" data-profile-option="individual" aria-pressed="false">Individual</button>
+          <button type="button" class="option-card" data-profile-option="salaried" aria-pressed="false">Salaried Professional</button>
+          <button type="button" class="option-card" data-profile-option="freelancer" aria-pressed="false">Freelancer</button>
+          <button type="button" class="option-card" data-profile-option="business" aria-pressed="false">Business Owner</button>
+          <button type="button" class="option-card" data-profile-option="startup" aria-pressed="false">Startup</button>
+          <button type="button" class="option-card" data-profile-option="other" aria-pressed="false">Other</button>
+        </div>
+      </div>
+
+      <div class="form-step" data-step="3" hidden>
+        <h3>Your contact details</h3>
+        <div class="field">
+          <label for="field-name">Name</label>
+          <input type="text" id="field-name" autocomplete="name" required />
+          <span class="field-error" role="alert" hidden></span>
+        </div>
+        <div class="field">
+          <label for="field-email">Email</label>
+          <input type="email" id="field-email" autocomplete="email" required />
+          <span class="field-error" role="alert" hidden></span>
+        </div>
+        <div class="field">
+          <label for="field-phone">Phone</label>
+          <input type="tel" id="field-phone" autocomplete="tel" required />
+          <span class="field-error" role="alert" hidden></span>
+        </div>
+        <div class="field">
+          <label>Preferred consultation method</label>
+          <div class="method-options">
+            <label class="method-option"><input type="radio" name="consult-method" value="email" checked /> Email</label>
+            <label class="method-option"><input type="radio" name="consult-method" value="google-meet" /> Google Meet</label>
+            <label class="method-option"><input type="radio" name="consult-method" value="whatsapp" /> WhatsApp</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-step" data-step="4" hidden>
+        <h3>You're almost there.</h3>
+        <div class="field">
+          <label for="field-message">Tell us briefly what you need help with (optional)</label>
+          <textarea id="field-message" rows="3"></textarea>
+        </div>
+        <div data-summary></div>
+      </div>
+    </div>
+
+    <div data-submit-area hidden></div>
+
+    <div class="form-nav">
+      <button type="button" class="btn-text" data-form-prev>&larr; Back</button>
+      <button type="button" class="btn btn-primary form-next" data-form-next>Continue</button>
+    </div>
+  </div>
+</div>
+
+<script src="config.js"></script>
+<script src="form.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
